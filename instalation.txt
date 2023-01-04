@@ -1,0 +1,11 @@
+1. install next and typescript npx create-next-app@latest --typescript / npx create-next-app@10.2.3 --typescript
+2. install story book : npx sb init
+3. npx eslint --init
+4. yarn add aos
+5. yarn add classnames
+6. yarn add axios
+7. yarn add bootstrap
+8. yarn add react-number-format
+9. yarn add react-toastify
+10.yarn add js-cookie
+11. yarn add jwt-decode

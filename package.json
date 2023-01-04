@@ -1,0 +1,38 @@
+{
+    "name": "tokoweb",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@ntegral/react-owl-carousel": "^1.0.1",
+        "aos": "^2.3.4",
+        "axios": "^0.27.2",
+        "classnames": "^2.3.2",
+        "js-cookie": "^3.0.1",
+        "jwt-decode": "^3.1.2",
+        "next": "12.3.1",
+        "owl.carousel": "^2.3.4",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-number-format": "^5.0.1",
+        "react-toastify": "^9.0.8"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.20.7",
+        "@types/node": "18.7.18",
+        "@types/react": "18.0.20",
+        "@typescript-eslint/eslint-plugin": "^5.48.0",
+        "babel-loader": "^8.3.0",
+        "eslint": "^8.31.0",
+        "eslint-config-standard-with-typescript": "^23.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.6.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.31.11",
+        "typescript": "^4.9.4"
+    }
+}

@@ -1,0 +1,9 @@
+<svg class="mb-30 mx-auto" width="94" height="85" viewBox="0 0 94 85" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" width="93" height="85" rx="12" fill="#D8191E" fill-opacity="0.1" />
+                        <path
+                            d="M46.5 57.0833C46.5 57.0833 58.1667 51.25 58.1667 42.5V32.2916L46.5 27.9166L34.8333 32.2916V42.5C34.8333 51.25 46.5 57.0833 46.5 57.0833Z"
+                            stroke="#D8191E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M42.125 42.4999L45.0417 45.4166L50.875 39.5833" stroke="#D8191E" stroke-width="2.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
