@@ -1,3 +1,18 @@
+# test frontend tokoweb - Hilmi Razib Yusuf
+# TestFrontEnd
+## Overview
+ 
+* Home
+
+![GitHub Logo](https://github.com/hilmirazib/tokoweb-next/blob/main/home.png)
+
+* login
+
+![GitHub Logo](https://github.com/hilmirazib/tokoweb-next/blob/main/login.png)
+* crud
+
+![GitHub Logo](https://github.com/hilmirazib/tokoweb-next/blob/main/crud.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
