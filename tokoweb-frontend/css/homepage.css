@@ -1,0 +1,327 @@
+/* Navbar */
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    font-weight: 500;
+    color: #DC1E23;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #DC1E23;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+
+.navbar-light .btn-download{
+    color: #fff;
+    background-color: #DC1E23;
+    padding: 0.75rem 1.875rem;
+    border-radius: 10px;
+}
+.navbar-light .text-brand {
+    color: #DC1E23;
+}
+/*  */
+
+
+/* Header */
+.header .header-title{
+    font-size: 2.625rem;
+    line-height: 1.5;
+}
+
+.btn-google-play{
+    background-color: #0D0D0D;
+    color: #fff;
+    padding: 0.75rem 3rem;
+    border-radius: 10px;
+}
+.get-in-on{
+    font-size: 10px;
+    display: inline-block;
+    height: 10px;
+    
+}
+.text-google-play{
+    font-size: 16px;
+}
+span.text-start {
+    line-height: 1;
+}
+p.text-desc-number {
+    font-size: 18px;
+    color: #807D7D;
+    display: inline-block;
+    width: fit-content;
+    font-weight: 500;
+}
+p.text-number {
+    display: inline-block;
+    width: fit-content;
+    font-size: 40px;
+    font-weight: bold;
+    color: #DC1E23;
+}
+
+.header .btn-learn:hover{
+    color: #0C145A;
+}
+/* lacak */
+.bg-lacak {
+    background: url('/assets/img/bg-lacak.png');
+    min-height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+input.input-custom {
+    height: 66px;
+    border-radius: 10px;
+}
+button.btn.btn-lacak {
+    color: white;
+    padding: 0.75rem 3rem;
+    background: #F2572E;
+    border-radius: 10px;
+    height: 66px;
+}
+
+/* Feature */
+.feature .feature-card{
+    background-color: #fff;
+    padding: 80px 60px;
+    border-radius: 1.625rem;
+    margin-right: 16px;
+    filter: drop-shadow(25px 25px 100px rgba(166, 161, 157, 0.1));
+}
+.card.testimonial-card.border-1 {
+    border-radius: 15px;
+    padding: 25px;
+}
+/*  */
+
+
+/* Featured Game */
+.featured-game .overflow-setting{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+.featured-game .featured-game-card{
+    transition: all 0.4s;
+    border-radius: 1.625rem;
+    width: 205px;
+    height: 270px;
+}
+
+.featured-game .featured-game-card:hover{
+    transition: all 0.4s;
+    border: 4px solid #2B2467;
+}
+
+.featured-game .featured-game-card:hover img{
+    transition: all 0.4s;
+    filter: blur(40px);
+    width: 181px;
+    height: 246px;   
+}
+
+.featured-game .featured-game-card .blur-sharp{
+    overflow: hidden;
+    border-radius: 1.625rem;
+}
+.featured-game .featured-game-card:hover .blur-sharp{
+    width: 192px;
+    border: 7px solid white;    
+}
+
+.featured-game .cover{
+    transition: all 0.4s;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    height: -webkit-fill-available;
+}
+
+.featured-game .featured-game-card:hover .cover{
+    opacity: 1;
+}
+
+.featured-game .game-icon{
+    margin-top: 3.125rem;
+}
+
+@media (min-width:768px){
+    .featured-game .overflow-setting{
+        overflow: hidden;
+    }
+}
+
+/*  */
+
+
+/* Reached */
+.reached .vertical-line{
+    width: 1px;
+    background-color: #E7EAF5;
+    height: 94px;
+}
+
+.reached .horizontal-line{
+    width: 240px;
+    background-color: #E7EAF5;
+    height: 1px;
+}
+/*  */
+
+/* Story */
+.story .btn-read{
+    padding: 0.75rem 3rem;
+    background-color: #E7EAF5;
+}
+
+.story .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+/*  */
+
+
+/* Footer */
+footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #F9FAFF;
+}
+
+footer ul{
+    margin-bottom: 0;
+}
+
+footer ul li a{
+    transition: 0.2s;
+}
+
+footer ul li a:hover{
+    color: #4D17E2;
+    text-decoration: underline !important;
+    background-color: transparent;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+ @media (max-width:768px) {
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* Header */
+    
+    /*  */
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+    /*  */
+
+    /* Header */
+.header .underline-blue {
+    text-decoration: none; 
+    position: relative; 
+  }  
+  
+img.img-fluid.img-header {
+    position: absolute;
+    right: -130px;
+}
+
+.header .underline-blue:after {
+    position: absolute;
+    content: '';
+    height: 8px;
+    bottom: 11px;
+       margin: 0 auto;
+    left: 0;
+  right: 0;
+    width: 100%;
+    background: #00BAFF;
+    z-index: -10;
+}
+/*  */
+
+    /* Featured Game */
+    .featured-game .featured-game-card:hover .blur-sharp{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+img.img-fluid.img-header {
+    position: absolute;
+    right: -125px;
+}
+img.img-fluid.img-right {
+    position: absolute !important;
+    right: -125px !important;
+    bottom: -110px !important;
+}
+img.img-fluid.img-left {
+    position: absolute;
+    left: -125px;
+    bottom: -110px;
+}
+img.img-kurir {
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+    width: 300px;
+}
+ }
+@media (max-width: 1200px) { 
+    
+img.img-fluid.img-header {
+    position: absolute;
+    right: -90px;
+}
+img.img-fluid.img-right {
+    position: absolute;
+    right: -90px;
+}
+img.img-fluid.img-right {
+    position: absolute;
+    left: -90px;
+}
+img.img-kurir {
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    width: 287px;
+}
+.btn-google-play{
+    padding: 0.75rem 2rem;
+}
+ }
+@media (max-width: 767px) { 
+    
+.btn-google-play{
+    padding: 0.75rem 2rem;
+    width: 230px;
+}
+ }
+

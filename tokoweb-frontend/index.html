@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+
+    <title>Toko Ikan</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white pt-lg-40 pb-lg-40 pt-30 pb-50">
+            <div class="container">
+                <a class="navbar-brand text-brand" href="#">
+                    Toko Ikan
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto text-lg gap-lg-0 gap-2">
+                        <li class="nav-item my-auto">
+                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="#">Keunggulan</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="#">Fitur Aplikasi</a>
+                        </li>
+
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="#">Testimonial</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
+                        <li class="nav-item my-auto">
+                            <a class="btn btn-download ms-lg-2" href="./src/sign-in.html" role="button">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Header -->
+    <section class="header pt-lg-60 pb-50">
+        <div class="container">
+            <div class="row gap-lg-0 gap-5">
+                <div class="col-lg-6 col-12 my-auto">
+                    <h1 class="header-title color-palette-1 fw-bold">
+                        Kirim berbagi jenis <br class="d-md-block d-none">ikan dengan mudah
+                    </h1>
+                    <p class="mt-30 mb-40 text-lg color-palette-1">A Lorem Ipsum is simply dummy text of the printing
+                        and <br class="d-md-block d-none"> typesetting industry. Lorem Ipsum has been the industry's</p>
+                    <div class="d-flex flex-md-row flex-column gap-4 mb-40">
+                        <a class="btn btn-google-play text-lg text-white" href="#feature" role="button">
+                            <div class="d-flex gap-3 align-items-center">
+                                <img src="/assets/img/goggle-play.png" alt="">
+                                <span class="text-start">
+                                    <span class="get-in-on">GET IN ON</span>
+                                    <br>
+                                    <span class="text-google-play">Google Play</span>
+                                </span>
+                            </div>
+                        </a>
+                        <a class="btn btn-google-play text-lg text-white" href="#feature" role="button">
+                            <div class="d-flex gap-3 align-items-center">
+                                <img src="/assets/img/apple.png" alt="">
+                                <span class="text-start">
+                                    <span class="get-in-on">Download on the</span>
+                                    <br>
+                                    <span class="text-google-play">App Store</span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex gap-5">
+                        <div class="d-flex flex-column">
+                            <p class="text-number">1.9k+</p>
+                            <p class="text-desc-number">Active Users</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <p class="text-number">20+</p>
+                            <p class="text-desc-number">New Features</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 d-lg-block d-none position-relative">
+                    <img src="./assets/img/Header-1.png" class="img-fluid img-header" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section lacak pengiriman -->
+    <section class="bg-lacak">
+        <div class="container-lacak">
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-6 col-12 border border-start-0 border-top-0 border-bottom-0 px-10">
+                    <div class="container-fluid">
+                        <p class="text-white text-center fw-semibold fs-2 mb-3">Lacak Pengiriman anda</p>
+                        <p class="text-white text-justify mb-4">A Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+                        <form action="" class="d-flex">
+                            <input type="email" class="form-control text-lg input-custom me-2 me-lg-4" id="email"
+                                name="email" aria-describedby="email" placeholder="Enter your email address">
+                            <button class="btn btn-lacak">Lacak</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 px-10">
+                    <div class="container-fluid">
+                        <p class="text-white text-center fw-semibold fs-2 mb-3">Cek Tarif Pengirman Anda</p>
+                        <form action="" class="d-flex">
+                            <input type="email" class="form-control text-lg input-custom me-2 me-lg-4" id="email"
+                                name="email" aria-describedby="email" placeholder="Enter your email address">
+                            <input type="email" class="form-control text-lg input-custom" id="email" name="email"
+                                aria-describedby="email" placeholder="Enter your email address">
+                        </form>
+                        <button class="btn btn-lacak mt-4 w-100">Check</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3 Column - Feature -->
+    <section id="feature" class="feature pt-50 pb-50">
+        <div class="container">
+            <h2 class="text-4xl fw-bold color-palette-1 text-center mb-30">Keunggulan Kami</h2>
+            <p class="mb-40 text-center">A Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                industry. Lorem Ipsum has been the industry's standard dummy text <br>ever since the 1500s.</p>
+            <div class="row gap-lg-0 gap-4" data-aos="fade-up">
+                <div class="col-lg-4">
+                    <div class="card feature-card border-0 text-center">
+                        <svg class="mb-30 mx-auto" width="94" height="85" viewBox="0 0 94 85" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" width="93" height="85" rx="12" fill="#D8191E" fill-opacity="0.1" />
+                            <path
+                                d="M44.4743 28.404C45.9952 27.8207 47.6791 27.8207 49.2 28.404L60.0863 32.5778C60.707 32.816 61.2406 33.2362 61.617 33.7829C61.9934 34.3296 62.1948 34.9772 62.1947 35.6403V50.1347C62.1948 50.7978 61.9934 51.4453 61.617 51.992C61.2406 52.5387 60.707 52.9589 60.0863 53.1971L49.2 57.3731C47.6791 57.9564 45.9952 57.9564 44.4743 57.3731L33.5902 53.1971C32.9692 52.9592 32.435 52.5392 32.0583 51.9925C31.6815 51.4458 31.4797 50.798 31.4796 50.1347V35.6403C31.4797 34.9769 31.6815 34.3292 32.0583 33.7824C32.435 33.2357 32.9692 32.8157 33.5902 32.5778L44.4743 28.404ZM48.4124 30.445C47.3985 30.0561 46.2759 30.0561 45.2619 30.445L42.2255 31.6109L54.4896 36.2396L58.7634 34.4153L48.4124 30.4428V30.445ZM60.0008 36.2637L47.9341 41.424V55.4853C48.0965 55.4437 48.2545 55.3934 48.4124 55.3321L59.2987 51.1584C59.5056 51.0788 59.6834 50.9386 59.8087 50.7562C59.9341 50.5739 60.001 50.3579 60.0008 50.1368V36.2681V36.2637ZM45.7402 55.4831V41.424L33.6736 36.2659V50.1347C33.6733 50.3557 33.7403 50.5717 33.8656 50.754C33.991 50.9364 34.1688 51.0766 34.3756 51.1562L45.2619 55.33C45.4199 55.3912 45.5779 55.4415 45.7402 55.4831ZM34.911 34.4153L46.8372 39.5121L51.5849 37.4821L39.1518 32.7878L34.911 34.4153Z"
+                                fill="#D8191E" />
+                        </svg>
+
+                        <p class="fw-semibold text-2xl mb-2 color-palette-1">Kirim Ke Berbagai Negara</p>
+                        <p class="text-lg color-palette-1 mb-0">A Lorem Ipsum is simply dummy <br>text of the printing
+                            and<br> typesetting industry</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card feature-card border-0 text-center">
+                        <svg class="mb-30 mx-auto" width="94" height="85" viewBox="0 0 94 85" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" width="93" height="85" rx="12" fill="#D8191E" fill-opacity="0.1" />
+                            <g clip-path="url(#clip0_1_58)">
+                                <path
+                                    d="M60.5556 44.1111C58.8056 42.2639 56.4722 41 54.0417 40.5139C52.9722 40.2222 51.9028 40.0278 50.8333 39.9306C53.5556 36.7222 53.0694 31.8611 49.8611 29.1389C46.6528 26.4167 41.7917 26.9028 39.0694 30.1111C36.3472 33.3195 36.8333 38.1806 40.0417 40.9028C40.625 41.3889 41.2083 41.7778 41.7917 41.9722V44.1111L40.2361 42.6528C38.875 41.2917 36.6389 41.2917 35.1806 42.6528C33.8194 44.0139 33.7222 46.1528 35.0833 47.5139L39.5556 52.7639C39.75 54.125 40.2361 55.3889 40.9167 56.5556C41.4028 57.4306 42.0833 58.3056 42.7639 58.9861V60.8334C42.7639 61.4167 43.1528 61.8056 43.7361 61.8056H56.9583C57.4444 61.8056 57.9306 61.3195 57.9306 60.8334V58.3056C59.7778 56.0695 60.75 53.25 60.75 50.4306V44.7917C60.8472 44.4028 60.75 44.2084 60.5556 44.1111ZM39.1667 34.9722C39.1667 31.7639 41.7917 29.2361 45 29.3334C48.2083 29.3334 50.7361 31.9584 50.6389 35.1667C50.6389 36.9167 49.8611 38.4722 48.5 39.5417V34.6806C48.4504 33.838 48.0803 33.0464 47.4657 32.4679C46.8511 31.8894 46.0385 31.568 45.1944 31.5695C43.4444 31.4722 41.8889 32.9306 41.8889 34.6806V39.7361C40.2361 38.7639 39.2639 36.9167 39.1667 34.9722ZM58.9028 50.3334C59 52.8611 58.125 55.2917 56.4722 57.2361C56.2778 57.4306 56.0833 57.625 56.0833 57.9167V59.9584H44.8056V58.5972C44.8056 58.3056 44.6111 58.0139 44.4167 57.8195C43.7361 57.2361 43.1528 56.5556 42.6667 55.6806C42.0833 54.7084 41.6944 53.5417 41.5 52.375C41.5 52.1806 41.4028 51.9861 41.3056 51.7917L36.6389 46.25C36.3472 45.9584 36.1528 45.5695 36.1528 45.0834C36.1528 44.6945 36.3472 44.2084 36.6389 43.9167C37.3194 43.3334 38.2917 43.3334 38.9722 43.9167L41.7917 46.7361V49.6528L43.6389 48.6806V34.6806C43.7361 34 44.3194 33.4167 45.0972 33.5139C45.7778 33.5139 46.4583 34 46.4583 34.6806V45.8611L48.4028 46.25V41.7778C48.5 41.6806 48.5972 41.6806 48.6944 41.5834C49.375 41.5834 50.0556 41.6806 50.7361 41.7778V46.7361L52.2917 47.0278V41.9722L53.4583 42.2639C53.9444 42.3611 54.4306 42.5556 54.9167 42.75V47.6111L56.4722 47.9028V43.4306C57.3472 43.8195 58.125 44.4028 58.8056 45.0834L58.9028 50.3334Z"
+                                    fill="#D8191E" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_58">
+                                    <rect width="35" height="35" fill="white" transform="translate(31 27)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+
+                        <p class="fw-semibold text-2xl mb-2 color-palette-1">Mudah Di Gunakan</p>
+                        <p class="text-lg color-palette-1 mb-0">A Lorem Ipsum is simply dummy <br>text of the printing
+                            and<br> typesetting industry</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card feature-card border-0 text-center">
+                        <svg class="mb-30 mx-auto" width="94" height="85" viewBox="0 0 94 85" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" width="93" height="85" rx="12" fill="#D8191E" fill-opacity="0.1" />
+                            <path
+                                d="M46.5 57.0833C46.5 57.0833 58.1667 51.25 58.1667 42.5V32.2916L46.5 27.9166L34.8333 32.2916V42.5C34.8333 51.25 46.5 57.0833 46.5 57.0833Z"
+                                stroke="#D8191E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M42.125 42.4999L45.0417 45.4166L50.875 39.5833" stroke="#D8191E" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+
+                        <p class="fw-semibold text-2xl mb-2 color-palette-1">Pengiriman Aman</p>
+                        <p class="text-lg color-palette-1 mb-0">A Lorem Ipsum is simply dummy <br>text of the printing
+                            and<br> typesetting industry</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Metode Pengiriman -->
+    <section class="header pt-lg-60 pb-50">
+        <div class="container">
+            <div class="row gap-lg-0 gap-5" data-aos="fade-up">
+                <div class="col-lg-6 col-12 pt-5 my-auto">
+                    <h1 class="header-title color-palette-1 fw-bold">
+                        Berbagai Metode <br class="d-md-block d-none">Pengiriman
+                    </h1>
+                    <p class="mt-30 mb-40 text-lg color-palette-1">A Lorem Ipsum is simply dummy text of the printing
+                        and <br class="d-md-block d-none"> typesetting industry. Lorem Ipsum has been the industry's</p>
+                </div>
+                <div class="col-lg-6 col-12 d-lg-block d-none position-relative">
+                    <img src="./assets/img/section-1.png" class="img-fluid img-right" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header pt-lg-60 pb-50">
+        <div class="container">
+            <div class="row gap-lg-0 gap-5" data-aos="fade-up">
+                <div class="col-lg-6 col-12 d-lg-block d-none position-relative">
+                    <img src="./assets/img/section-2.png" class="img-fluid img-left" alt="">
+                </div>
+                <div class="col-lg-6 col-12 pt-5 my-auto">
+                    <h1 class="header-title color-palette-1 fw-bold">
+                        Lacak status <br class="d-md-block d-none">Pengiriman
+                    </h1>
+                    <p class="mt-30 mb-40 text-lg color-palette-1">A Lorem Ipsum is simply dummy text of the printing
+                        and <br class="d-md-block d-none"> typesetting industry. Lorem Ipsum has been the industry's</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header pt-lg-60 pb-50">
+        <div class="container">
+            <div class="row gap-lg-0 gap-5" data-aos="fade-up">
+                <div class="col-lg-6 col-12 pt-5 my-auto">
+                    <h1 class="header-title color-palette-1 fw-bold">
+                        Cek schedule  <br class="d-md-block d-none">Pengiriman Anda
+                    </h1>
+                    <p class="mt-30 mb-40 text-lg color-palette-1">A Lorem Ipsum is simply dummy text of the printing
+                        and <br class="d-md-block d-none"> typesetting industry. Lorem Ipsum has been the industry's</p>
+                </div>
+                <div class="col-lg-6 col-12 d-lg-block d-none position-relative">
+                    <img src="./assets/img/section-3.png" class="img-fluid img-right" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3 Column - Feature -->
+    <section class="feature pt-50 pb-50">
+        <div class="container">
+            <h2 class="text-4xl fw-bold color-palette-1 text-center mb-30">Testimonial</h2>
+            <p class="mb-40 text-center">A Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card testimonial-card border-1">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <img src="assets/img/user-1.png" style="width: 60px;" alt="">
+                                    <div class="d-flex">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                    </div>
+                                </div>
+        
+        
+                                <p class="fw-semibold text-2xl mb-2 color-palette-1">Floyd Miles</p>
+                                <p class="text-lg color-palette-1 mb-0">A Lorem Ipsum is simply dummy <br>text of the printing
+                                    and<br> typesetting industry</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card testimonial-card border-1">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <img src="assets/img/user-2.png" style="width: 60px;" alt="">
+                                    <div class="d-flex">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                    </div>
+                                </div>
+        
+        
+                                <p class="fw-semibold text-2xl mb-2 color-palette-1">Ronald Richards</p>
+                                <p class="text-lg color-palette-1 mb-0">A Lorem Ipsum is simply dummy <br>text of the printing
+                                    and<br> typesetting industry</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card testimonial-card border-1">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <img src="assets/img/user-3.png" style="width: 60px;" alt="">
+                                    <div class="d-flex">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                        <img src="assets/img/bintang.png" width="24" height="24" alt="">
+                                    </div>
+                                </div>
+        
+        
+                                <p class="fw-semibold text-2xl mb-2 color-palette-1">Jonas Smith</p>
+                                <p class="text-lg color-palette-1 mb-0">A Lorem Ipsum is simply dummy <br>text of the printing
+                                    and<br> typesetting industry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="bg-lacak mt-30">
+        <div class="container-lacak">
+            <div class="row position-relative" data-aos="fade-up">
+                <div class="col-lg-6 col-12 px-20">
+                    <div class="container-fluid">
+                        <h1 class="text-white fw-bold">Available and<br> Download Anytime!</h1>
+                        <p class="text-white text-justify mb-4">A Lorem Ipsum is simply dummy text of the printing and</p>
+                        <div class="d-flex flex-lg-row flex-column gap-4 mb-40">
+                            <a class="btn btn-google-play text-lg text-white" href="#feature" role="button">
+                                <div class="d-flex gap-3 align-items-center">
+                                    <img src="/assets/img/goggle-play.png" alt="">
+                                    <span class="text-start">
+                                        <span class="get-in-on">GET IN ON</span>
+                                        <br>
+                                        <span class="text-google-play">Google Play</span>
+                                    </span>
+                                </div>
+                            </a>
+                            <a class="btn btn-google-play text-lg text-white" href="#feature" role="button">
+                                <div class="d-flex gap-3 align-items-center">
+                                    <img src="/assets/img/apple.png" alt="">
+                                    <span class="text-start">
+                                        <span class="get-in-on">Download on the</span>
+                                        <br>
+                                        <span class="text-google-play">App Store</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 px-10 d-lg-block d-none">
+                    <img src="assets/img/kurir.png" class="img-kurir" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-lg-start text-center">
+                        <a href="" class="mb-30">
+                            <img src="assets/img/footer.png" alt="">
+                        </a>
+                        <p class="mt-30 text-lg color-palette-1 mb-30">A Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry. Lorem Ipsum has been the<br> industry's  standard.</p>
+                        <p class="mt-30 text-lg color-palette-1 mb-30">Copyright 2021. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-20">
+                        <div class="row gap-sm-0">
+                            <div class="col-md-6 col-6 mb-lg-0 mb-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Menu Bantuan</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Keunggulan</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Fitur Aplikasi</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Testimoni</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-6 mb-lg-0 mb-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Informasi Kontak</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">0812-9797-1227
+                                            </a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">0812-9797-1227</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Jbgtranshipping@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+<script>
+        // AOS Animation
+        AOS.init();
+        // owl carousel
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            margin:10,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
